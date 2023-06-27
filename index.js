@@ -1,0 +1,14 @@
+/*const name=require('./names')
+const sayHi=require('./util')
+console.log(name);
+const data=require('./alternative')
+console.log(data)
+sayHi(name.john)
+
+sayHi(name.peter)*/
+//const { log } = require('console')
+
+const _ = require('lodash')
+const items=[1,[2,[3,[4]]]]
+const newItems=_.flattenDeep(items)
+console.log(newItems)
